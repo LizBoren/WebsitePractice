@@ -1,0 +1,119 @@
+
+
+
+header {
+  text-align: center;
+  background: url('https://i.imgur.com/Hdm00wZ.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  padding: 50px 0 0px 0;
+  color: white;
+}
+h1 {
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  color: #e5dfdc;
+  font-size: 75px;
+  margin: 100px 0 -25px 0;
+}
+a{
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  color: #e5dfdc;
+  font-size: 20px;
+}
+ul{
+  padding: 20px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+}
+
+li{
+  text-align: center;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  }
+  a:link{
+    text-decoration: none;
+  }
+body{
+  margin: 50px;
+  background-color: #e5dfdc;
+}
+h2{
+  font-family: 'New Rocker', cursive;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  padding: 300px 0px 20px 0px;
+}
+
+#container{
+  text-align: center;
+}
+
+#range-logo {
+    display:block;
+    width:300px;
+    height:450px;
+    overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+
+}
+.wrapper{
+  display:inline-block;
+}
+
+figure{
+  width:300px;
+  height:450px;
+  background-size: 300px 450px;
+  overflow:auto;
+
+  transition: all 1s ease-in-out;
+  background-repeat: repeat-n;
+  margin: calc(33.333 / 20px);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1);
+}
+
+figure:hover{
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: 300px 450px;
+}
+
+
+#gia{
+  background-image: url('https://i.imgur.com/BYx7USr.jpg');
+}
+
+#gia:hover{
+  -webkit-animation: gia 5s infinite; /* Chrome, Safari, Opera */
+  animation: gia 5s infinite;
+}
+
+@-webkit-keyframes gia {
+    0% {background-image: url('https://i.imgur.com/BYx7USr.jpg');}
+    33% {background-image: url('http://weknowyourdreams.com/images/tattoo/tattoo-06.jpg');}
+    66% {background-image: url('https://veri-art.net/wp-content/uploads/2017/01/minimalist-tattoo-hongdam-korea-8-57e3a8150ef0c__700.jpg');}
+    100% {background-image: url('https://i.imgur.com/uMUHEhz.png');}
+    }
+
+@media (max-width: 600px){
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    padding: 250px 0px 0px 0px;
+    font-size: 40px;
+  }
+  body{
+    margin: auto;
+  }
